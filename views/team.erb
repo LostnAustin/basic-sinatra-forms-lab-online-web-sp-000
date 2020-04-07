@@ -7,12 +7,12 @@
  <body>
 
     <% @team.each do |a| %>
-   <h1> Team Name: <%= a.name %> </h1>
-    <h2> Coach: <%= coach %> </h2>
-    <h2> Point Guard:<%= pg %> </h2>
-    <h2> Shooting Guard:<%= sg %> </h2>
-    <h2> Small Forward:<%= sf %> </h2>
-    <h2> Center:<%= c %> </h2>
+   <h1> Team Name: <%= "#{a.name}" %> </h1>
+    <h2> Coach: <%= a.coach %> </h2>
+    <h2> Point Guard:<%= a.pg %> </h2>
+    <h2> Shooting Guard:<%= a.sg %> </h2>
+    <h2> Small Forward:<%= a.sf %> </h2>
+    <h2> Center:<%= a.c %> </h2>
 
 
 
