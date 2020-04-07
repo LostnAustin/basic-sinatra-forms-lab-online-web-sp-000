@@ -9,9 +9,9 @@ end
 
   post '/team' do
     # binding.pry
-  #  @team = params
-  #  @name = params[:name]
-      #  binding.pry
+   @team = params
+   @name = params[:name]
+       binding.pry
      erb :team
   end
 
