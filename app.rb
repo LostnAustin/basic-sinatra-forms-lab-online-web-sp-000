@@ -11,7 +11,7 @@ end
     # binding.pry
    @team = params
    @name = params[:name]
-       binding.pry
+      #  binding.pry
      erb :team
   end
 
