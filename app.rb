@@ -9,7 +9,7 @@ end
 
   post '/team' do
     # binding.pry
-  @team = params
+  # @team = params
      erb :team
   end
 
